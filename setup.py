@@ -14,7 +14,7 @@ if not 'sdist' in sys.argv:
         """
         )
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
@@ -26,6 +26,4 @@ setup(
     author_email='contact@deeplime.io',
     license='LICENSE',
     python_requires='>=3.8',
-    packages=find_packages(),
-    include_package_data=True
 )
